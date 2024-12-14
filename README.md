@@ -86,13 +86,13 @@ This project was developed by a team of **seven students** from the **Faculty of
 - **[Esraa Saeid](https://github.com/esraasaeid8090)**: Implemented the search functionality.  
   - Developed methods to search songs by title and highlighted favorite songs during the search.
 
-- **[Haneen Hatem](https://github.com/#)**: Responsible for updating song details and validation.  
+- **[Haneen Hatem](#)**: Responsible for updating song details and validation.  
   - Implemented the `editSong()` function for editing song details and handled validation for edited details.
 
 - **[Rana Ashraf](https://github.com/rana8-long)**: Handled favorites, filters, and song status.  
   - Developed functionality for marking/unmarking songs as favorites and toggling song status (e.g., played, paused).
 
-- **[ziad alaa](https://github.com/ZiadAlaa984)**: Implemented sorting, shuffle, and statistics features.  
+- **[Ziad Alaa](https://github.com/ZiadAlaa984)**: Implemented sorting, shuffle, and statistics features.  
   - Developed sorting methods to arrange songs and implemented shuffle functionality, while ensuring the circular list structure remained intact.
 
 - **[Khaled Ghoneim](https://github.com/Khaled01090)**: Implemented file operations and statistics.  
