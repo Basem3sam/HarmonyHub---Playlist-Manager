@@ -86,7 +86,7 @@ This project was developed by a team of **seven students** from the **Faculty of
 - **[Esraa Saeid](https://github.com/esraasaeid8090)**: Implemented the search functionality.  
   - Developed methods to search songs by title and highlighted favorite songs during the search.
 
-- **[Haneen Hatem](#)**: Responsible for updating song details and validation.  
+- **[Haneen Hatem](https://github.com/HaneenHaatem)**: Responsible for updating song details and validation.  
   - Implemented the `editSong()` function for editing song details and handled validation for edited details.
 
 - **[Rana Ashraf](https://github.com/rana8-long)**: Handled favorites, filters, and song status.  
