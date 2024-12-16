@@ -37,8 +37,8 @@ class Playlist {
     }
 
     void sortSongsByTitle() {
-      if (!head) {
-        cout << "The playlist is empty. Cannot sort." << endl;
+      if (!head || head->next == head) {
+        cout << "The playlist is empty or has only one song. No sorting needed." << endl;
         return;
       }
       Song *current = head;
@@ -67,8 +67,8 @@ class Playlist {
     }
 
     void sortSongsByArtist() {
-      if (!head) {
-        cout << "The playlist is empty. Cannot sort." << endl;
+      if (!head || head->next == head) {
+        cout << "The playlist is empty or has only one song. No sorting needed." << endl;
         return;
       }
       Song *current = head;
@@ -98,8 +98,8 @@ class Playlist {
     }
 
     void sortSongsByGenre() {
-      if (!head) {
-        cout << "The playlist is empty. Cannot sort." << endl;
+      if (!head || head->next == head) {
+        cout << "The playlist is empty or has only one song. No sorting needed." << endl;
         return;
       }
       Song *current = head;
@@ -129,8 +129,8 @@ class Playlist {
     }
   
     void sortSongsByAlbum() {
-      if (!head) {
-        cout << "The playlist is empty. Cannot sort." << endl;
+      if (!head || head->next == head) {
+        cout << "The playlist is empty or has only one song. No sorting needed." << endl;
         return;
       }
       Song *current = head;
@@ -160,9 +160,9 @@ class Playlist {
     }
   
     void sortSongsByYear() {
-    if (!head) {
-      cout << "The playlist is empty. Cannot sort." << endl;
-      return;
+    if (!head || head->next == head) {
+        cout << "The playlist is empty or has only one song. No sorting needed." << endl;
+        return;
     }
 
     Song* current = head;
@@ -242,6 +242,7 @@ class Playlist {
           swap(current->duration, minSong->duration);
           swap(current->isFavorite, minSong->isFavorite);
         }
+        current = current->next;
       } while (current != head);
       cout << "Songs sorted by favorite." << endl;
     }
