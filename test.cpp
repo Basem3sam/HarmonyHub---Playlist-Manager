@@ -322,7 +322,6 @@ int main() {
         }
     } while (choice != 5);
 
-  cout << "Press any key to continue..." << endl;
   system("pause");
 
   return 0;
